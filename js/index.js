@@ -3,6 +3,7 @@ const Home = {
 };
 
 var routes = [
+  { path: "/", component: Home },
   { path: "/hello", component: Home },
   { path: "/forms", component: Vue.component('form-page') },
   { path: "/dirs", component: Vue.component("diretivas-page") },
